@@ -168,6 +168,7 @@ START=$(date +"%s")
 makekernel || exit 1
 shipkernel
 setnewcam
+setver2
 makekernel || exit 1
 shipkernel
 END=$(date +"%s")
